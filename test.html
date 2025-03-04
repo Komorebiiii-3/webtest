@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隨機指派網址</title>
+    <script>
+        const urls = [
+                "https://youtu.be/cBp-QhO63Us?si=tS0Ovbm1xFxt2jPN",
+                "https://youtu.be/39FAr_jOyGo?si=cGZp6GZXewlD_edP",
+                "https://youtu.be/wNGSYuLKFiM?si=zJwcI7bBUe7Pc0ED",
+                "https://youtu.be/mea2euwGB88?si=6SMATeRif2Y3Uag0"
+        ];
+        window.location.replace(urls[Math.floor(Math.random() * urls.length)]); // 立即跳轉，無緩衝
+    </script>
+</head>
+<body>
+</body>
+</html>
